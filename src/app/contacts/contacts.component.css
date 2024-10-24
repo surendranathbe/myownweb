@@ -1,0 +1,101 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1
+{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkseagreen;
+    text-align: center;
+    padding: 20px;
+}
+.form-container
+{ 
+    display: grid;
+    place-items: center; 
+    min-height: 60vh; 
+}
+.form-row
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form-row input 
+{
+    border-radius: 10%;
+    background-color: antiquewhite;
+    font-size: large;
+}
+.form-row label
+{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px;
+    text-transform: uppercase;
+}
+.form-row input:hover
+{
+    background-color: #fff;
+}
+.form-group
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form-group label
+{
+    
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px;
+    text-transform: uppercase;
+}
+.form-group input
+{
+    border-radius: 10%;
+    background-color: antiquewhite;
+    font-size: large;
+    width: 400px;
+}
+.form-group 
+{
+    font-size: 20px;
+    font-weight: bolder; 
+}
+.form-group label 
+{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px;
+    text-transform: uppercase;
+}
+.form-group  input
+{
+     border-radius: 10%;
+    background-color: antiquewhite;
+    font-size: large;
+    width: 400px;
+}
+.form-group  input option
+{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px;
+    text-transform: uppercase;
+}
+button
+{
+    background-color: red;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 30%;
+}
+button:hover
+{
+   background-color: aqua;
+}

@@ -1,0 +1,23 @@
+img{
+    width: 40vh;
+    height: 40vh;
+}
+h1{
+    font-size: 20px;
+    color: #530202bb;
+    font-weight: bolder;
+}
+h1:hover
+{
+    background-color: #a9f8b3bb;
+}
+p
+{
+    font-size: 22px;
+    color: #b6067b;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+img:hover{
+    zoom:50%;
+}
