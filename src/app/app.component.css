@@ -1,0 +1,94 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.nav
+{
+  background: rgba(0,100,0,3);
+  font-size: 15px;
+  font-weight: bold;
+  width: 120%;
+}
+.nav ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+.nav ul li
+{
+    width: 120%;
+    margin: 5px;
+    padding: 8px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #ee1313;
+}
+.active, .nav ul li a:hover
+{
+     background-color: #f5f5ee;
+     border-radius: 3px;
+}
+
+.sub-menu-1
+{
+    display: none;
+
+}
+.nav ul li:hover .sub-menu-1
+{
+     display: block;
+     position: absolute;
+     background: rgba(100,0,0,0.9);
+     margin-top: 15px;
+     margin-left: -15px;
+}
+.nav ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.footer
+{
+    background: #e9e93f;
+    width: 100%;
+    border-radius: 10px;
+}
+.footer-main{
+    width: 100%;
+    padding: 30px 30px 10px;
+}
+.socialicons
+{
+    display:flex;
+    justify-content: center;
+}
+.socialicons a
+{ 
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 20px;
+    color: black;
+    opacity: 3;
+}
+.socialicons a:hover
+{
+    background-color:gold;
+    transition: 0.5sec;
+     
+}
+.socialicons a:hover i{
+    color: aqua;
+    transition: 0.6sec;
+}
